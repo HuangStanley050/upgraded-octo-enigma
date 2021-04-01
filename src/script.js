@@ -43,5 +43,3 @@ function draw(array) {
 let result = generatePixelArray(256, 128);
 let unique = multiDimensionalUnique(result);
 let flatResult = unique.flat();
-
-draw(flatResult);
