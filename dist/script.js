@@ -11,17 +11,7 @@ function multiDimensionalUnique(arr) {
   }
   return uniques;
 }
-function convertArrayToObject(array) {
-  const initialValue = {};
-  let counter = 0;
-  return array.reduce((obj, item) => {
-    //console.log(obj)
-    return {
-      ...obj,
-      [counter++]: item
-    };
-  }, initialValue);
-}
+
 function generatePixelArray() {
   const arr = [];
   for (let i = 0; i < 32768; i++) {
