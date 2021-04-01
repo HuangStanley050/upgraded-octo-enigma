@@ -50,6 +50,10 @@ function draw(array) {
 
   //console.log(imageData.data.length);
   ctx.putImageData(imageData, 0, 0);
+  ctx.putImageData(imageData, 0, 0);
+  ctx.font = "72px arial";
+  ctx.fillStyle = "white";
+  ctx.fillText("EGH", 55, 85);
 }
 let result = generatePixelArray();
 let unique = multiDimensionalUnique(result);
