@@ -17,4 +17,10 @@ test("generatePixelArray function should return a two dimensional array which fi
   });
 });
 
-test("multiDimensionalUnique should return a two dimensional array with unique sub arrays", () => {});
+test("generatePixelArray function should return a set number of elements base on the width and height arguments passed", () => {
+  const pixelArray = generatePixelArray(256, 128);
+  const totalElements = 256 * 128;
+  expect(pixelArray.length).toBe(totalElements);
+});
+
+test("multiDimensionalUnique function should return a two dimensional array with unique sub arrays", () => {});
