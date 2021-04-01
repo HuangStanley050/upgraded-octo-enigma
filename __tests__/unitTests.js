@@ -1,12 +1,5 @@
 import { multiDimensionalUnique, generatePixelArray } from "../src/script";
 
-[
-  [146, 214, 176, 255],
-  [3, 192, 75, 255],
-  [61, 154, 98, 255],
-  [11, 191, 144, 255],
-];
-
 test("generatePixelArray function should return a two dimensional array which fits the requirement", () => {
   const pixelArray = generatePixelArray(2, 2);
   // array contains "red", "green", "blue" and "alpha"
@@ -23,3 +16,5 @@ test("generatePixelArray function should return a two dimensional array which fi
     expect(pixel[3]).toBe(255);
   });
 });
+
+test("multiDimensionalUnique should return a two dimensional array with unique sub arrays", () => {});
