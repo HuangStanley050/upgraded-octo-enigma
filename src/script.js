@@ -18,8 +18,8 @@ export function generatePixelArray(width, height) {
   for (let i = 0; i < resolution; i++) {
     if (!arr[i]) arr[i] = [];
     for (let j = 0; j < 4; j++) {
-      arr[i][j - 1] = Math.floor(Math.random() * 255) + 0;
-      arr[i][j] = 255;
+      arr[i][j] = Math.floor(Math.random() * 255) + 0;
+      arr[i][3] = 255;
     }
   }
   //console.log(arr)
