@@ -8,9 +8,9 @@
 git clone https://github.com/HuangStanley050/upgraded-octo-enigma
 ```
 
-2. Navigate to the repo
+2. Navigate to the repo directory
 
-3. Change to the 'dist' folder and open the **index.html** with any browser.
+3. Change directory to the 'dist' folder and open the **index.html** with any browser.
 
 ### Live 
 
