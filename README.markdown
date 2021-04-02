@@ -1,5 +1,19 @@
 # canvas experiment
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/xguardx/pen/wvggyej](https://codepen.io/xguardx/pen/wvggyej).
+### Running the app locally 
+
+1. Clone the repo by 
+
+```bash
+git clone https://github.com/HuangStanley050/upgraded-octo-enigma
+```
+
+2. Navigate to the repo
+
+3. Change to the 'dist' folder and open the **index.html** with any browser.
+
+### Live 
+
+Live URL: [https://codepen.io/xguardx/pen/wvggyej](https://codepen.io/xguardx/pen/wvggyej).
 
 
